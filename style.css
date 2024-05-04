@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(Imagens/netflix.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo img {
+    height: auto;
+    width: 200px;
+}
+
+/* Posição da Logo */
+
+.header {
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.login_body {
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 640px;
+    margin-left: 50%;
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 3px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+.login_body h2 {
+    font-size: 32;
+    color: #fff;
+    margin-top: 0;
+}
+
+/* Customizar os inputs (login e senha) */
+.login_body input {
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Animação quando passa o mouse por cima dos inputs */
+.login_body input:hover {
+    background-color: #444;
+}
+
+/* Separação das boxs de input */
+.input_box {
+    margin-bottom: 25px;
+}
+
+/* Estilizar o botão entrar*/
+.login_body button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Animação quando passa o mouse por cima do entrar  */
+.login_body button:hover {
+    background-color: #fc1722;
+    cursor: pointer;
+}
+
+/* Estilização do suporte */
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* Estilização do Lembre-se de mim */
+.support_input {
+    width: 15px;
+    height: 15px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember span {
+    margin-right: 5px;
+    height: 80px;
+}
+
+/* Estilização do link precisa de ajuda */
+.help a {
+    text-decoration: none;
+    /* Tirar a linha fixa de baixo da escrita */
+    color: #737373;
+}
+
+.help a:hover {
+    text-decoration: underline;
+    /* Colocar a linha de baixo da escrita quando passa o mouse*/
+}
+
+.sign_up {
+    color: #737373;
+    font-size: 16px;
+}
+
+/* Estilização do sign up link */
+.sign_up a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sign_up a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    color: #737373;
+    font-size: 13px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
